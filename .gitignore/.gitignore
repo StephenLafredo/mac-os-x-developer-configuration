@@ -1,0 +1,33 @@
+# 1. cd ~
+# 2. touch .gitignore-usr
+# 3. git config --global core.excludesfiles ~/.gitignore-usr
+#
+# src = https://github.com/github/gitignore/blob/master/Global/macOS.gitignore
+# ------------------------------------------------------------------------------
+
+# -- General -------------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# --Potential root volume files ------------------------------------------------
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# -- Potential AFP share directories  ------------------------------------------
+.apdisk
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
